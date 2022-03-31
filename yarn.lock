@@ -118,6 +118,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@graphql-tools/schema@npm:^8.3.6":
+  version: 8.3.6
+  resolution: "@graphql-tools/schema@npm:8.3.6"
+  dependencies:
+    "@graphql-tools/merge": 8.2.6
+    "@graphql-tools/utils": 8.6.5
+    tslib: ~2.3.0
+    value-or-promise: 1.0.11
+  peerDependencies:
+    graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
+  checksum: 2a55aabdcdce2ba20fee75435e9f5f014c6f93976c18561469596accc509eae4fb3277cfdbeb852f65f22cc25784ebdeef8354fc56ea27c5d675676c3575e603
+  languageName: node
+  linkType: hard
+
 "@graphql-tools/utils@npm:8.6.5":
   version: 8.6.5
   resolution: "@graphql-tools/utils@npm:8.6.5"
@@ -1408,6 +1422,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "gql-code-fist@workspace:."
   dependencies:
+    "@graphql-tools/schema": ^8.3.6
     "@typescript-eslint/eslint-plugin": ^5.16.0
     "@typescript-eslint/parser": ^5.16.0
     apollo-server: ^3.6.6

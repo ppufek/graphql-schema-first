@@ -5,7 +5,7 @@ import { user, users } from './graphql/resolvers/User.resolver'
 import { vehicles } from './graphql/resolvers/Vehicle.resolver'
 
 // The GraphQL schema
-const typeDefs = gql`
+export const typeDefs = gql`
 type Query {
   user(id: ID!): User
   users: [User!]!

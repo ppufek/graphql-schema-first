@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs'
 import * as path from 'path'
 
-import { printSchema } from 'graphql'
+import { GraphQLSchema, printSchema } from 'graphql'
 
 import 'reflect-metadata'
 import buildSchema from './buildSchema'
@@ -18,11 +18,7 @@ const generatedSchemaWarning = `\
 `
 
 const generateSchemaFile = () => {
-    const schema = buildSchema({
-        authChecker: () => {
-            return false
-        },
-    })
+    const schema: GraphQLSchema = buildSchema()
 
     writeFileSync(
         path.join(__dirname, '../../schema.graphql'),
