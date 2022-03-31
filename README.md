@@ -1,1 +1,1 @@
-# graphql-schema-fist
+# graphql-code-fist

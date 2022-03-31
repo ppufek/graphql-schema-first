@@ -378,7 +378,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^17.0.23":
+"@types/node@npm:*":
   version: 17.0.23
   resolution: "@types/node@npm:17.0.23"
   checksum: a3517554737cbb042e76c30d0e5482192ac4d9bea0eeb086e2622d9cabf460a0eb52a696b99fcd18e7fcc93c96db6cc7ae507f6608f256ef0b5c1d8c87a5a470
@@ -1404,11 +1404,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gql-schema-fist@workspace:.":
+"gql-code-fist@workspace:.":
   version: 0.0.0-use.local
-  resolution: "gql-schema-fist@workspace:."
+  resolution: "gql-code-fist@workspace:."
   dependencies:
-    "@types/node": ^17.0.23
     "@typescript-eslint/eslint-plugin": ^5.16.0
     "@typescript-eslint/parser": ^5.16.0
     apollo-server: ^3.6.6
